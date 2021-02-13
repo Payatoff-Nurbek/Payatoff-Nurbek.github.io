@@ -1,19 +1,41 @@
 body {
   margin: 0px;
+  background-color: #373636;
 }
 .menu{
-  color:red;
+  color:white;
   flex:1;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
+  width:10%;
+  border: 1px solid;
+  margin: 1%;
+  font-size: 30px;
+  font-family:sans-serif;
+  text-decoration: none;
+  padding: 5px;
 }
 nav a:hover{
-  color:green;
+  color: black;
+  background-color: white;
 }
 nav {
   display: flex;
   flex:1;
-  width: 90%;
-  padding: 2%;
+padding: 20px;
+}
+#skill {
+  display: flex;
+  flex: 1;
+  text-align: center;
+}
+.softskill {
+  flex:1;
+  font-family: fantasy;
+  color: white;
 
+}
+.hardskill {
+  flex:1;
+  font-family: fantasy;
+  color: white;
 }

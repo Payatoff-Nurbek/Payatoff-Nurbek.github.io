@@ -18,15 +18,15 @@
 
   
     
-  <nav>
+  <nav class="grey darken-3">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo">Портфолио</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#about">Обо мне</a></li>
         <li><a href="#skill">Навыки</a></li>
-        <li><a href="">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+        <li><a href="#contact">Контакты</a></li>
       </ul>
     </div>
   </nav>
@@ -44,20 +44,20 @@
         <p>
           <div class="container-fluid">
             <div class="row">
-              <div class="col s12 m12 l12 lx12">
-              <div class="col s12 m12 l6 lx6">
+              <h2 class="center">Профессиональные навыки</h2>
+              <div class="col s12 m12 l12 lx12 grey">
+              <div class="col s12 m12 l6 lx6 center">
                 <h3>Soft Skill</h3>
               <p>Умение работать в команде</p>
               <p>Креативность</p>
               <p>Адаптируемость</p>
               <p>Ответсвенность</p>
               </div>
-              <div class="col s12 m12 l6 lx6">
+              <div class="col s12 m12 l6 lx6 center">
                 <h3 >Hard Skill</h3>
                 <p>Уровень английского A2</p>
                 <p>PHP</p>
                 <p>JavaScript</p>
-                <p>Python</p>
                 <p>HTML</p>
                 <p>CSS</p>
               </div>
@@ -72,7 +72,7 @@
         <p>
           <div class="container-fluid" id="about">
             <div class="row">
-              <h3 class="center">CМИ ОБО МНЕ</h3>
+              <h3 class="center">Cми обо мне</h3>
               <div class="col s12 m12 l12">
               <div class="col s12 m12 l3">
                 <div class="card">
@@ -81,7 +81,7 @@
                     <span class="card-title">ЦРМИ</span>
                   </div>
                   <div class="card-content">
-                    <p>Презентация первого в Казахстане телеграмм бота среди Центра развития молодежных инициатив</p>
+                    <p>Презентация Президенту Токаеву первого в Казахстане телеграмм бота среди Центра развития молодежных инициатив</p>
                   </div>
                   <div class="card-action">
                     <a href="http://today.kz/news/kazahstan/2019-04-27/777291-prezident-posetil-tsentr-razvitiya-molodezhnyih-initsiativ-v-pavlodare/">Источник Today.kz</a>
@@ -139,36 +139,20 @@
       <div id="initialization" class="section scrollspy">
         <p>
 
-          <div id="portfolio">
-            <div class="project">Мои проекты</div>
-            <div class="project1">
-              <div class="block">
-                <a href="https://payatoff-nurbek.github.io/crmi/pages.jpg">Источник</a>
-                <h4>Дизайн сайт Центр развития молодежных инициатив</h4>
-                <p id="stack">Figma</p>
-                <p id="stack">Adode Photoshop</p>
-                <p id="stack">Corel Draw</p>
-              </div>
-              <div class="block">
-                <a href="https://payatoff-nurbek.github.io/crmi/pages.jpg">Источник</a>
-                <h4>Сайт Центр развития молодежных инициатив</h4>
-                <p id="stack">Figma</p>
-                <p id="stack">Adode Photoshop</p>
-                <p id="stack">Corel Draw</p>
-              </div>
-            </div>
-          </div>
 
-        </p>
-      </div>
-      <div id="contact" class="section scrollspy">
-        <p>
-
-          <div id="contact">
-            <h3>Контакты</h3>
-            <a href="https://github.com/Payatoff-Nurbek">Github</a>
-            <a href="mailto:mr.playoffgames@gmail.com">Mail</a>
-          </div>
+           <h2 class="center grey-text text-darken-2">Мои проекты</h2>
+  <ul class="collection" id="portfolio">
+    <li class="collection-item avatar">      
+    <img class="circle"  width="50" src="https://img2.freepng.ru/20180704/uxe/kisspng-github-computer-icons-icon-design-desktop-wallpape-5b3d36142dd125.8636932415307381961877.jpg">
+      
+      <span class="title">Дизайн сайт Центр развития молодежных инициатив</span>
+      <p class="indigo-text">Стэк технологий <br>
+        Adode Photoshop, Corel Draw, Figma
+      </p>
+      <a href="https://payatoff-nurbek.github.io/crmi/pages.jpg" class="secondary-content"><i class="material-icons">send</i></a>
+    </li>  
+  </ul>
+            
 
         </p>
       </div>
@@ -183,29 +167,25 @@
     </div>
   </div>
         
-  <footer class="page-footer">
+  <footer class="page-footer grey darken-3 " id="contact">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-          <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+          <h5 class="white-text">Мои контакты</h5>
         </div>
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Links</h5>
+          <h6 class="white-text center">Связаться со мной</h6>
           <ul>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+            <li class="col l3"><a class="grey-text text-lighten-3" href="https://github.com/Payatoff-Nurbek">Github</a></li>
+            <li class="col l3"><a class="grey-text text-lighten-3" href="mailto:mr.playoffgames@gmail.com">Mail</a></li>
+            <li class="col l3"><a class="grey-text text-lighten-3" href="#!">LinkedIn</a></li>
+            <li class="col l3"><a class="grey-text text-lighten-3" href="#!">VK</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
-      © 2014 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-      </div>
+
     </div>
   </footer>  
   
